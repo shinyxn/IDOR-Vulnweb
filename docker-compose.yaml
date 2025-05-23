@@ -3,7 +3,7 @@ services:
   web:
     build: .
     ports:
-      - "5000:5000"
+      - "56789:5000"
     restart: unless-stopped
     environment:
       - SECRET_KEY=supersecretkey
