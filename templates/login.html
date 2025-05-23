@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %}Login — MIS PENS{% endblock %}
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-6">
+    <div class="card bg-secondary text-light shadow-lg">
+      <div class="card-body">
+        <h3 class="card-title text-center mb-4">Login</h3>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+          {% for category, msg in messages %}
+            <div class="alert alert-{{ category }}" role="alert">{{ msg }}</div>
+          {% endfor %}
+        {% endif %}
+        {% endwith %}
+        <form action="{{ url_for('login') }}" method="post">
+          <div class="mb-3">
+            <label class="form-label">Username</label>
+            <input type="text" name="username" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input type="password" name="password" class="form-control" required>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

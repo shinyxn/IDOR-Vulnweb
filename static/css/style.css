@@ -1,0 +1,17 @@
+/* Dark background overrides and tweaks */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  .card.bg-secondary {
+    background-color: #1f1f1f !important;
+  }
+  .navbar-dark .navbar-brand, .nav-link {
+    color: #e0e0e0;
+  }
+  .navbar-dark .navbar-brand:hover, .nav-link:hover {
+    color: #ffffff;
+  }
+  footer.bg-secondary {
+    background-color: #1a1a1a !important;
+  }
