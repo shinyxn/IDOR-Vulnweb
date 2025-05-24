@@ -3,8 +3,8 @@ services:
   web:
     build: .
     ports:
-      - "56789:5000"
+      - "56788:5000"
     restart: unless-stopped
     environment:
       - SECRET_KEY=supersecretkey
-      - FLAG=FLAG{FAKE_FLAG_FOR_TESTING}
+      - FLAG=TCC{FAKE_FLAG}
