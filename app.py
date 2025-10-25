@@ -155,6 +155,51 @@ users = {
         "telepon": "080234567899",
         "ip_terakhir": "192.168.0.10",
         "note": "Hmm sepertinya user dibawah 7 punya rahasia"
+    },
+    "11": {
+        "username": "Dian Susena",
+        "email": "dian.susena@pens.ac.id",
+        "password": generate_password_hash("pass10"),
+        "nrp": "242000010",
+        "jurusan": "Teknologi Rekayasa Internet",
+        "joined": datetime(2021, 12, 22),
+        "bio": "Mahasiswa aktif di program studi Teknologi Rekayasa Internet.",
+        "location": "Kota Jakarta",
+        "profile_image": "10.png",
+        "alamat": "Jl. Gatot Subroto No. 67, Jakarta",
+        "telepon": "080234567899",
+        "ip_terakhir": "192.168.0.10",
+        "note": "Hmm sepertinya user dibawah 7 punya rahasia"
+    },
+    "12": {
+        "username": "Ilham Hilmawan",
+        "email": "ilham837748@pens.ac.id",
+        "password": generate_password_hash("pass10"),
+        "nrp": "242000010",
+        "jurusan": "Teknologi Rekayasa Internet",
+        "joined": datetime(2021, 12, 22),
+        "bio": "Mahasiswa aktif di program studi Teknologi Rekayasa Internet.",
+        "location": "Kota Jakarta",
+        "profile_image": "10.png",
+        "alamat": "Jl. Gatot Subroto No. 67, Jakarta",
+        "telepon": "080234567899",
+        "ip_terakhir": "192.168.0.10",
+        "note": "Hmm sepertinya user dibawah 7 punya rahasia"
+    },
+    "13": {
+        "username": "Dian Sastrowijowo",
+        "email": "wijowow8372@pens.ac.id",
+        "password": generate_password_hash("pass10"),
+        "nrp": "242000010",
+        "jurusan": "Teknologi Rekayasa Internet",
+        "joined": datetime(2021, 12, 22),
+        "bio": "Mahasiswa aktif di program studi Teknologi Rekayasa Internet.",
+        "location": "Kota Jakarta",
+        "profile_image": "10.png",
+        "alamat": "Jl. Gatot Subroto No. 67, Jakarta",
+        "telepon": "080234567899",
+        "ip_terakhir": "192.168.0.10",
+        "note": "Hmm sepertinya user dibawah 7 punya rahasia"
     }
 }
 
